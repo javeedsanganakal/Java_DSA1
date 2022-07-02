@@ -1,3 +1,4 @@
+package GettingStarted;
 import java.util.*;
   public class Fibonacci{
     public static void main(String[] args) {
@@ -7,18 +8,16 @@ import java.util.*;
           
           int first = 0;
           int second = 1;
-          int fib = first + second;
-          System.out.println(first);
-          System.out.println(second);
-          for(int i  = 2; i<n; i++){
-              
-              System.out.println(fib);
-              
+          int fib;
+          // int fib = first + second;
+          // System.out.println(first);
+          // System.out.println(second);
+          for(int i  = 0; i<n; i++){
+              System.out.println(first);
+              fib = first + second;
               first= second;
               second = fib;
-              fib = first + second;
-  
-           
+              
           }
      }
   }
